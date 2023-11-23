@@ -3,6 +3,8 @@ En este repositorio se consolidan todos los experimentos referentes al Trabajo d
 
 # Contenido
 
+## Configuración de ambiente en Python
+
 Para poder ejecutar los códigos de este repositorio, se debe crear un ambiente utilizando el gestor de ambientes de Python, directamente desde el CLI del sistema operativo. Específicamente en Windows:
 
 ```cmd
@@ -28,8 +30,6 @@ Cuando el ambiente se encuentre activo, podremos confirmarlo cuando en nuestro C
 ```cmd
 (numerical_methods_env) environments\numerical_methods_env
 ```
-
-## Configuración de ambiente en Python
 
 ## Métodos numéricos
 Consolidación de códigos realizados en cursos para el fortalecimiento de conocimientos en métodos numéricos.
