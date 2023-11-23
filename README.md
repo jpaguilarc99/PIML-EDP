@@ -4,9 +4,9 @@ En este repositorio se consolidan todos los experimentos referentes al Trabajo d
 # Contenido
 ### 1. [Configuración de ambiente](https://github.com/jpaguilarc99/PIML-EDP/tree/main#configuraci%C3%B3n-de-ambiente-en-python)
 ### 2. [Métodos numéricos](https://github.com/jpaguilarc99/PIML-EDP/tree/main#m%C3%A9todos-num%C3%A9ricos)
-### 3. [Física Computacional]()
-### 4. [Physics Informed Neural Networks]()
-### 5. [Variational Physics Informed Neural Networks]()
+### 3. [Física Computacional](https://github.com/jpaguilarc99/PIML-EDP/tree/main#f%C3%ADsica-computacional)
+### 4. [Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main#physics-informed-neural-networks)
+### 5. [Variational Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main#variational-informed-neural-networks)
 
 ## Configuración de ambiente en Python
 
