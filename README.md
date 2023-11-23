@@ -12,4 +12,24 @@ Para poder ejecutar los códigos de esta sección, se debe crear un ambiente uti
 python -m venv numerical_methods_env
 ```
 
+Después de crear nuestro ambiente, debemos instalar las librerías necesarias para su funcionamiento, específicadas en el [requirements.txt](https://github.com/jpaguilarc99/PIML-EDP/blob/main/requirements.txt).
+
+Posteriormente, para activar nuestro ambiente, debemos ir a la carpeta raíz en donde se realizó la instalación del environment y ejecutar el siguiente comando:
+
+```cmd
+env\folder\Scripts\activate
+```
+
+En nuestro caso de ejemplo,
+
+```cmd
+environments\numerical_methods_env\Scripts\activate
+```
+
+Cuando el ambiente se encuentre activo, podremos confirmarlo cuando en nuestro CLI aparezca la ruta base de modo que:
+
+```cmd
+(numerical_methods_env) environments\numerical_methods_env\Scripts\activate
+```
+
 1. [Roots of High Degree](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/roots_of_high_degree_equations.ipynb)
