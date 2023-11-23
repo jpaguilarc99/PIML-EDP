@@ -4,3 +4,6 @@ En este repositorio se consolidan todos los experimentos referentes al Trabajo d
 # Contenido
 
 ## Métodos numéricos
+Consolidación de códigos realizados en cursos para el fortalecimiento de conocimientos en métodos numéricos.
+
+1. [Roots of High Degree](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/roots_of_high_degree_equations.ipynb)
