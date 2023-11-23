@@ -53,7 +53,7 @@ Consolidación de códigos realizados en cursos para el fortalecimiento de conoc
 Consolidación de códigos experimentales referentes a las *Physics Informed Neural Networks*, se prueban diferentes enfoques y múltiples arquitecturas para observar sus respectivos desempeños. Las redes experimentadas hasta el momento son:
 
 - [Experiment: Physics Informed Transformer](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/piml_transformer.py)
-- [Physics Informed DeepONet](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/deepONet.ipynb))
+- [Physics Informed DeepONet](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/deepONet.ipynb)
 - [Physics Informed Neural Network with Symbolic Regression](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/ED_PINN_SR.ipynb)
 - [Operator Learning](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/ODIL.py)
 
