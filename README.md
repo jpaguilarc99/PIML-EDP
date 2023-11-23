@@ -3,7 +3,7 @@ En este repositorio se consolidan todos los experimentos referentes al Trabajo d
 
 # Contenido
 ### 1. [Configuración de ambiente](https://github.com/jpaguilarc99/PIML-EDP/tree/main#configuraci%C3%B3n-de-ambiente-en-python)
-### 2. [Métodos numéricos]([https://github.com/jpaguilarc99/PIML-EDP/tree/main/numerical-methods](https://github.com/jpaguilarc99/PIML-EDP/tree/main#m%C3%A9todos-num%C3%A9ricos))
+### 2. [Métodos numéricos](https://github.com/jpaguilarc99/PIML-EDP/tree/main#m%C3%A9todos-num%C3%A9ricos)
 
 ## Configuración de ambiente en Python
 
