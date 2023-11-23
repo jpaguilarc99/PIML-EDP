@@ -35,3 +35,8 @@ Cuando el ambiente se encuentre activo, podremos confirmarlo cuando en nuestro C
 Consolidación de códigos realizados en cursos para el fortalecimiento de conocimientos en métodos numéricos.
 
 - [Roots of High Degree](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/roots_of_high_degree_equations.ipynb)
+- [Interpolation and Curve Fitting](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/interpolation_and_curve_fitting.ipynb)
+- [Numerical Differentiation](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/numerical_differentiation.ipynb)
+- [Numerical Integration](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/numerical_integration.ipynb)
+- [Systems of Linear Equations](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/systems_of_linear_equations.ipynb)
+- [Ordinary Differetial Equations](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/ordinary_differential_equations.ipynb)
