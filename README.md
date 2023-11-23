@@ -4,6 +4,9 @@ En este repositorio se consolidan todos los experimentos referentes al Trabajo d
 # Contenido
 ### 1. [Configuración de ambiente](https://github.com/jpaguilarc99/PIML-EDP/tree/main#configuraci%C3%B3n-de-ambiente-en-python)
 ### 2. [Métodos numéricos](https://github.com/jpaguilarc99/PIML-EDP/tree/main#m%C3%A9todos-num%C3%A9ricos)
+### 3. [Física Computacional]()
+### 4. [Physics Informed Neural Networks]()
+### 5. [Variational Physics Informed Neural Networks]()
 
 ## Configuración de ambiente en Python
 
@@ -34,11 +37,24 @@ Cuando el ambiente se encuentre activo, podremos confirmarlo cuando en nuestro C
 ```
 
 ## Métodos numéricos
-Consolidación de códigos realizados en cursos para el fortalecimiento de conocimientos en métodos numéricos.
+Consolidación de códigos realizados en cursos para el fortalecimiento de conocimientos en métodos numéricos. Los temas tratados son: 
 
-- [Roots of High Degree](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/roots_of_high_degree_equations.ipynb)
+- [Roots of High Degree Equations](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/roots_of_high_degree_equations.ipynb)
 - [Interpolation and Curve Fitting](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/interpolation_and_curve_fitting.ipynb)
 - [Numerical Differentiation](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/numerical_differentiation.ipynb)
 - [Numerical Integration](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/numerical_integration.ipynb)
 - [Systems of Linear Equations](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/systems_of_linear_equations.ipynb)
-- [Ordinary Differetial Equations](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/ordinary_differential_equations.ipynb)
+- [Ordinary Differential Equations](https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/ordinary_differential_equations.ipynb)
+
+## Física Computacional
+
+## Physics Informed Neural Networks
+
+Consolidación de códigos experimentales referentes a las *Physics Informed Neural Networks*, se prueban diferentes enfoques y múltiples arquitecturas para observar sus respectivos desempeños. Las redes experimentadas hasta el momento son:
+
+- [Experiment: Physics Informed Transformer]([https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/roots_of_high_degree_equations.ipynb](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/piml_transformer.py))
+- [Physics Informed DeepONet]([https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/interpolation_and_curve_fitting.ipynb](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/deepONet.ipynb))
+- [Physics Informed Neural Network with Symbolic Regression]([https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/numerical_differentiation.ipynb](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/ED_PINN_SR.ipynb))
+- [Operator Learning]([https://github.com/jpaguilarc99/PIML-EDP/blob/main/numerical-methods/numerical_integration.ipynb](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/ODIL.py)https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/ODIL.py)
+
+## Variational Informed Neural Networks
