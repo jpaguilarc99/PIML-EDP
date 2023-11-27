@@ -16,8 +16,6 @@ Para poder ejecutar los códigos de este repositorio, se debe crear un ambiente 
 python -m venv numerical_methods_env
 ```
 
-Después de crear nuestro ambiente, debemos instalar las librerías necesarias para su funcionamiento, específicadas en el [requirements.txt](https://github.com/jpaguilarc99/PIML-EDP/blob/main/requirements.txt).
-
 Posteriormente, para activar nuestro ambiente, debemos ir a la carpeta raíz en donde se realizó la instalación del environment y ejecutar el siguiente comando:
 
 ```cmd
@@ -35,8 +33,7 @@ Cuando el ambiente se encuentre activo, podremos confirmarlo cuando en nuestro C
 ```cmd
 (numerical_methods_env) environments\numerical_methods_env
 ```
-
-Finalmente, al tener nuestro ambiente creado y activo en el CLI, ejecutamos el comando de instalación de los paquetes necesarios:
+Después de crear y activar nuestro ambiente, debemos instalar las librerías necesarias para su funcionamiento, específicadas en el [requirements.txt](https://github.com/jpaguilarc99/PIML-EDP/blob/main/requirements.txt). Ejecutamos el comando de instalación de los paquetes necesarios:
 
 ```cmd
 (numerical_methods_env) environments\numerical_methods_env\pip install -r requirements.txt
