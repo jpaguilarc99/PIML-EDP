@@ -1,0 +1,78 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Compiled and generated files
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.out
+*.log
+*.egg-info/
+dist/
+build/
+
+# Ignore pycache in the project root
+__pycache__/
+
+# Ignore local configuration files
+*.swp
+*~
+*.bak
+
+# Ignore data and model files
+data/
+models/
+
+# Ignore user-specific files
+*.config
+*.ini
+*.conf
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore miscellaneous files
+*.bak
+*.csv
+*.pdf
+
+# Ignore project-specific files
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled files in the source directory
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
