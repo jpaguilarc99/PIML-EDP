@@ -36,6 +36,12 @@ Cuando el ambiente se encuentre activo, podremos confirmarlo cuando en nuestro C
 (numerical_methods_env) environments\numerical_methods_env
 ```
 
+Finalmente, al tener nuestro ambiente creado y activo en el CLI, ejecutamos el comando de instalación de los paquetes necesarios:
+
+```cmd
+(numerical_methods_env) environments\numerical_methods_env\pip install -r requirements.txt
+```
+
 ## Métodos numéricos
 Consolidación de códigos realizados en cursos para el fortalecimiento de conocimientos en métodos numéricos. Los temas tratados son: 
 
