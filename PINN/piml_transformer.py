@@ -48,7 +48,8 @@ def pde_loss(model, x_pde, t_pde):
     """
     x_pde.requires_grad = True
     t_pde.requires_grad = True
-    u_pde = model(x_pde, t_pde)
+    inputs = torch.cat((x_pde, t_pde), dim=1)
+    u_pde = model(inputs)
     u_t = torch.autograd.grad(u_pde, t_pde, torch.ones_like(u_pde), create_graph=True)[0]
     u_x = torch.autograd.grad(u_pde, x_pde, torch.ones_like(u_pde), create_graph=True)[0]
     u_xx = torch.autograd.grad(u_x, x_pde, torch.ones_like(u_x), create_graph=True)[0]
@@ -101,7 +102,7 @@ class TransformerEDP(nn.Module):
         output = self.decoder(output)
         return output 
 
-def train_model(model, inputs, true_output, num_epochs=2000, lr=0.001):
+def train_model(model, inputs, true_output, x_pde, t_pde, num_epochs=5000, lr=0.001):
     """
     Trains the given model to approximate the solution of the one-dimensional heat equation.
 
@@ -109,7 +110,7 @@ def train_model(model, inputs, true_output, num_epochs=2000, lr=0.001):
         model (nn.Module): The neural network model.
         inputs (torch.Tensor): Input data tensor.
         true_output (torch.Tensor): True output tensor.
-        num_epochs (int): Number of training epochs (default: 2000).
+        num_epochs (int): Number of training epochs.
         lr (float): Learning rate for optimizer (default: 0.001).
     """
     criterion = nn.MSELoss()    
@@ -118,29 +119,35 @@ def train_model(model, inputs, true_output, num_epochs=2000, lr=0.001):
     for epoch in range(num_epochs):
         optimizer.zero_grad()
         predicted_output = model(inputs)
-        loss = criterion(predicted_output, true_output)
+        mse_loss = torch.nn.functional.mse_loss(predicted_output, true_output)
+        pde_loss_value = pde_loss(model, x_pde, t_pde)        
+        loss = mse_loss + pde_loss_value
         loss.backward()
         optimizer.step()
         if epoch % 100 == 0:
             print(f"Epoch {epoch}, Loss: {loss.item()}")
+            print(f"The PDE loss value is {pde_loss_value:.16f}")
 
 # Define spatial and temporal grid
+
 num_points_x = 100
 num_points_t = 100
-x = torch.linspace(0, 1, num_points_x).view(-1, 1)
-t = torch.linspace(0, 1, num_points_t).view(-1, 1)
+x = x_pde = torch.linspace(0, 1, num_points_x).view(-1, 1)
+t = t_pde = torch.linspace(0, 1, num_points_t).view(-1, 1)
 
 inputs = encode_inputs(x, t)
 
 true_output = true_solution(x, t)
 
 model = TransformerEDP(input_dim=2, output_dim=1, num_layers=4, hidden_dim=64)
-train_model(model, inputs, true_output)
+train_model(model, inputs, true_output, x_pde=x_pde, t_pde=t_pde)
+
+print(pde_loss(model, x_pde, t_pde))
 
 predicted_output = model(inputs)
 
-plt.plot(x.numpy(), true_output.numpy(), label='True Solution')
-plt.plot(x.numpy(), predicted_output.detach().numpy(), label='Predicted Solution', lw=0, marker="o")
+plt.plot(x.detach(), true_output.detach(), label='True Solution')
+plt.plot(x.detach(), predicted_output.detach().numpy(), label='Predicted Solution', lw=0, marker="o")
 plt.legend()
 plt.xlabel('x')
 plt.ylabel('u(x, t)')
