@@ -33,8 +33,6 @@ def loss_fn(u_model, x, f):
 def train(model, optimizer, loss_fn, f, n_pts, iterations):
     losses = []
     for iteration in range(iterations):  
-
-
         optimizer.zero_grad()
         x = torch.FloatTensor(n_pts,1).uniform_(0, np.pi).requires_grad_(True)
         loss = loss_fn(model, x, f)
