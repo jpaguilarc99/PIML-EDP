@@ -41,38 +41,6 @@ Después de crear y activar nuestro ambiente, debemos instalar las librerías ne
 (numerical_methods_env) environments\numerical_methods_env\pip install -r requirements.txt
 ```
 
-### CONDA
-
-Realizamos la configuración de ambiente analoga a VENV utilizando CONDA. Creamos un ambiente de conda a partir del siguiente archivo [environment.yml]():
-
-```yaml
-name: edp_piml
-channels:
-  - defaults
-dependencies:
-  - python=3.x
-  - pandas==2.0.2
-  - numpy==1.24.3
-  - matplotlib==3.7.1
-  - scipy==1.10.1
-  - tensorflow==2.13.0
-  - scikit-learn==1.2.2
-  - tqdm==4.65.0
-  - torch==2.0.1
-```
-
-Y con el siguiente comando, se hace la creación del entorno virtual:
-
-```cmd
-conda env create -f environment.yml
-```
-
-Finalmente, activamos el ambiente virtual:
-
-```cmd
-conda activate edp_piml
-```
-
 ## Métodos numéricos
 Consolidación de códigos realizados en cursos para el fortalecimiento de conocimientos en métodos numéricos. Los temas tratados son: 
 
