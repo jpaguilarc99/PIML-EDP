@@ -52,7 +52,7 @@ conda create --name edp_piml python=3.x
 Luego, activamos el ambiente de conda:
 
 ```cmd
-conda edp_piml
+conda activate edp_piml
 ```
 
 Y verificamos del mismo modo que se cambie el entorno base por el ambiente virtual:
