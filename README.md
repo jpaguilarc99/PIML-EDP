@@ -10,6 +10,8 @@ En este repositorio se consolidan todos los experimentos referentes al Trabajo d
 
 ## Configuración de ambiente en Python
 
+### VENV
+
 Para poder ejecutar los códigos de este repositorio, se debe crear un ambiente utilizando el gestor de ambientes de Python, directamente desde el CLI del sistema operativo. Específicamente en Windows:
 
 ```cmd
