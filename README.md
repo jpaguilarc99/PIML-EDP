@@ -64,7 +64,7 @@ Y verificamos del mismo modo que se cambie el entorno base por el ambiente virtu
 Ahora, hacemos la modificación del requirements.txt a un archivo [environment.yml](), de modo que queda:
 
 ```yaml
-name: numerical_methods_env
+name: edp_piml
 channels:
   - defaults
 dependencies:
