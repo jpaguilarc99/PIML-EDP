@@ -43,25 +43,7 @@ Después de crear y activar nuestro ambiente, debemos instalar las librerías ne
 
 ### CONDA
 
-Realizamos la configuración de ambiente analoga a VENV utilizando CONDA. Creamos un ambiente de conda:
-
-```cmd
-conda create --name edp_piml python=3.x
-```
-
-Luego, activamos el ambiente de conda:
-
-```cmd
-conda activate edp_piml
-```
-
-Y verificamos del mismo modo que se cambie el entorno base por el ambiente virtual:
-
-```cmd
-(edp_piml) \root\env\path
-```
-
-Ahora, hacemos la modificación del requirements.txt a un archivo [environment.yml](), de modo que queda:
+Realizamos la configuración de ambiente analoga a VENV utilizando CONDA. Creamos un ambiente de conda a partir del siguiente archivo [environment.yml]():
 
 ```yaml
 name: edp_piml
@@ -79,16 +61,16 @@ dependencies:
   - torch==2.0.1
 ```
 
-Y con el ambiente activo, instalamos las dependencias del ambiente:
+Y con el siguiente comando, se hace la creación del entorno virtual:
 
 ```cmd
-conda env update --file environment.yml
+conda env create -f environment.yml
 ```
 
-Para desactivar el ambiente, ejecutamos:
+Finalmente, activamos el ambiente virtual:
 
 ```cmd
-conda deactivate
+conda activate edp_piml
 ```
 
 ## Métodos numéricos
