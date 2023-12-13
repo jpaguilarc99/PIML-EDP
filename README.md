@@ -61,7 +61,7 @@ Y verificamos del mismo modo que se cambie el entorno base por el ambiente virtu
 (edp_piml) ./root/path/
 ```
 
-Ahora, hacemos la modificación del requirements.txt a un archivo environment.yml, de modo que:
+Ahora, hacemos la modificación del requirements.txt a un archivo [environment.yml](), de modo que queda:
 
 ```yaml
 name: numerical_methods_env
@@ -77,6 +77,18 @@ dependencies:
   - scikit-learn==1.2.2
   - tqdm==4.65.0
   - torch==2.0.1
+```
+
+Y con el ambiente activo, instalamos las dependencias del ambiente:
+
+```cmd
+conda env update --file environment.yml
+```
+
+Para desactivar el ambiente, ejecutamos:
+
+```cmd
+conda deactivate
 ```
 
 ## Métodos numéricos
