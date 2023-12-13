@@ -58,7 +58,7 @@ conda edp_piml
 Y verificamos del mismo modo que se cambie el entorno base por el ambiente virtual:
 
 ```cmd
-(edp_piml) ./root/path/
+(edp_piml) \root\env\path
 ```
 
 Ahora, hacemos la modificación del requirements.txt a un archivo [environment.yml](), de modo que queda:
