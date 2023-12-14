@@ -49,7 +49,7 @@ def exact_u(x):
 nn = 10
 nl = 4
 n_pts = 1000
-iterations = 100
+iterations = 500
 
 model = Model(neurons=nn, n_layers=nl)
 optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
