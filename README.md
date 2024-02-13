@@ -6,7 +6,8 @@ En este repositorio se consolidan todos los experimentos referentes al Trabajo d
 ### 2. [Métodos numéricos](https://github.com/jpaguilarc99/PIML-EDP/tree/main#m%C3%A9todos-num%C3%A9ricos)
 ### 3. [Física Computacional](https://github.com/jpaguilarc99/PIML-EDP/tree/main#f%C3%ADsica-computacional)
 ### 4. [Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main#physics-informed-neural-networks)
-### 5. [Variational Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main#variational-informed-neural-networks)
+### 5. [Poisson Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main/PoissonPINNs)
+### 6. [Variational Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main#variational-informed-neural-networks)
 
 ## Configuración de ambiente en Python
 
@@ -53,6 +54,10 @@ Consolidación de códigos realizados en cursos para el fortalecimiento de conoc
 
 ## Física Computacional
 
+En esta sección se consolidan los códigos realizados para resolver problemas físico mediante el uso de métodos numéricos:
+
+- [Física Computacional](https://github.com/jpaguilarc99/PIML-EDP/tree/main/computational_physics)
+
 ## Physics Informed Neural Networks
 
 Consolidación de códigos experimentales referentes a las *Physics Informed Neural Networks*, se prueban diferentes enfoques y múltiples arquitecturas para observar sus respectivos desempeños. Las redes experimentadas hasta el momento son:
@@ -60,5 +65,14 @@ Consolidación de códigos experimentales referentes a las *Physics Informed Neu
 - [Experiment: Physics Informed Transformer](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/piml_transformer.py)
 - [Physics Informed DeepONet](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/deepONet.ipynb)
 - [Physics Informed Neural Network with Symbolic Regression](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/ED_PINN_SR.ipynb)
+
+## Poisson Physics Informed Neural Networks
+
+En esta sección se hace la experimentación de diferentes tipos de arquitecturas de redes neuronales para dar solución a la Ecuación Diferencial Parcial de Poisson utilizando el enfoque de *Physics Informed Neural Networks*. Las arquitecturas empleadas para solucionar el problema de Poisson son:
+
+- [Feed Forward Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PoissonPINNs/Poisson1D_NNvsPINN/Poisson1D_PINN.ipynb)
+- [Convolutional Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PoissonPINNs/Poisson1D_CNNvsPICNN/PoissonCNN1D.ipynb)
+- [Recurrent Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PoissonPINNs/Poisson1D_RNNvsPIRNN/Poisson1D_RNN.ipynb)
+- [Transformer Architecture](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PoissonPINNs/Poisson1D_TransformervsPITN/PoissonTransformer1D.ipynb)
 
 ## Variational Informed Neural Networks
