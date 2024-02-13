@@ -7,7 +7,8 @@ En este repositorio se consolidan todos los experimentos referentes al Trabajo d
 ### 3. [Física Computacional](https://github.com/jpaguilarc99/PIML-EDP/tree/main#f%C3%ADsica-computacional)
 ### 4. [Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main#physics-informed-neural-networks)
 ### 5. [Poisson Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main/PoissonPINNs)
-### 6. [Variational Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main#variational-informed-neural-networks)
+### 6. [Integración numérica](https://github.com/jpaguilarc99/PIML-EDP/tree/main/Numerical_Integration)
+### 7. [Variational Physics Informed Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/tree/main#variational-informed-neural-networks)
 
 ## Configuración de ambiente en Python
 
@@ -75,4 +76,10 @@ En esta sección se hace la experimentación de diferentes tipos de arquitectura
 - [Recurrent Neural Networks](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PoissonPINNs/Poisson1D_RNNvsPIRNN/Poisson1D_RNN.ipynb)
 - [Transformer Architecture](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PoissonPINNs/Poisson1D_TransformervsPITN/PoissonTransformer1D.ipynb)
 
-## Variational Informed Neural Networks
+## Integración numérica
+
+
+
+## Variational Physics Informed Neural Networks
+
+En desarrollo...
