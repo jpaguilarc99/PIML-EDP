@@ -1,5 +1,5 @@
 # PIML-EDP
-En este repositorio se consolidan todos los experimentos referentes al Trabajo de Grado de Ingeniería Física, en donde se realizan exploraciones y repasos de Métodos Numéricos y Ecuaciones Diferenciales Parciales, Physics Informed Neural Networks, Variational Physics Informed Neural Networks.
+En este repositorio se consolidan todos los experimentos referentes al Trabajo de Grado de Ingeniería Física, en donde se realizan exploraciones respecto a Métodos Numéricos y Ecuaciones Diferenciales Parciales, Physics Informed Neural Networks, Variational Physics Informed Neural Networks, entre otros.
 
 # Contenido
 ### 1. [Configuración de ambiente](https://github.com/jpaguilarc99/PIML-EDP/tree/main#configuraci%C3%B3n-de-ambiente-en-python)
