@@ -67,7 +67,7 @@ Consolidación de códigos experimentales referentes a las *Physics Informed Neu
 - [Experiment: Physics Informed DeepONet](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN_Experiments/PIDeepONet.ipynb)
 - [Experiment: Physics Informed Neural Network with Symbolic Regression](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN_Experiments/PINN_Symbolic_Reg.ipynb)
 - [Experiment: Harmonic Physics Informed Neural Network](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN_Experiments/Harmonic_PINN.ipynb)
-- [Heat and Burgers Equations Experiment:](https://github.com/jpaguilarc99/PIML-EDP/tree/main/PINN_Experiments/PINN_FDM)
+- [Experiment: Heat and Burgers Equations](https://github.com/jpaguilarc99/PIML-EDP/tree/main/PINN_Experiments/PINN_FDM)
 
 ## Poisson Physics Informed Neural Networks
 
