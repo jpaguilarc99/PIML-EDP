@@ -63,9 +63,11 @@ En esta sección se consolidan los códigos realizados para resolver problemas f
 
 Consolidación de códigos experimentales referentes a las *Physics Informed Neural Networks*, se prueban diferentes enfoques y múltiples arquitecturas para observar sus respectivos desempeños. Las redes experimentadas hasta el momento son:
 
-- [Experiment: Physics Informed Transformer](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/piml_transformer.py)
-- [Physics Informed DeepONet](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/deepONet.ipynb)
-- [Physics Informed Neural Network with Symbolic Regression](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/ED_PINN_SR.ipynb)
+- [Experiment: Physics Informed Transformer]([https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/piml_transformer.py](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN_Experiments/HeatPDE_transformer.py)
+- [Experiment: Physics Informed DeepONet]([https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/deepONet.ipynb](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN_Experiments/PIDeepONet.ipynb)
+- [Experiment: Physics Informed Neural Network with Symbolic Regression]([https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN/ED_PINN_SR.ipynb](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN_Experiments/PINN_Symbolic_Reg.ipynb)
+- [Experiment: Harmonic Physics Informed Neural Network](https://github.com/jpaguilarc99/PIML-EDP/blob/main/PINN_Experiments/Harmonic_PINN.ipynb)
+- [Heat and Burgers Equations Experiment:](https://github.com/jpaguilarc99/PIML-EDP/tree/main/PINN_Experiments/PINN_FDM)
 
 ## Poisson Physics Informed Neural Networks
 
