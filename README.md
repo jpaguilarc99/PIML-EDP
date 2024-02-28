@@ -86,3 +86,13 @@ En esta sección se hace la experimentación de diferentes tipos de arquitectura
 ## Variational Physics Informed Neural Networks
 
 En desarrollo...
+
+## Licencia
+
+Todo el código está bajo licencia MIT y el contenido bajo licencia
+Creative Commons Attribute.
+
+El contenido de este repositorio está bajo
+[licencia Creative Commons Attribution 4.0](http://choosealicense.com/licenses/cc-by-4.0/),
+y el código que lo acompaña bajo
+[licencia MIT](https://opensource.org/licenses/mit-license.php).
