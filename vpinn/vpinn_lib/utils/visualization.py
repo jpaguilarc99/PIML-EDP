@@ -3,16 +3,16 @@ import matplotlib.pyplot as plt
 def plot_results(losses, L2_errors, h1_norms):
     fig, ax = plt.subplots(figsize=(10, 4))
 
-    # Graficar la función de pérdida en escala semilog
-    ax.loglog(losses, label="Función de pérdida")
+    # Graficar la función de pérdida 
+    ax.semilogy(losses, label="Función de pérdida")
 
-    # Graficar el error L2 en escala semilog en la misma gráfica
+    # Graficar el error L2 
     ax.semilogy(L2_errors, label="Norma $L^2$")       
-    ax.loglog(h1_norms, label="Norma $H^1$") 
+    ax.semilogy(h1_norms, label="Norma $H^1$") 
 
     # Configurar los títulos y etiquetas    
-    ax.set_xlabel("Iteración", fontsize="x-large")  # Cambiar a "x-large"
-    ax.set_ylabel('Error relativo', fontsize="x-large")  # Cambiar a "x-large"
+    ax.set_xlabel("Iteración", fontsize="x-large")  
+    ax.set_ylabel('Error relativo', fontsize="x-large") 
     ax.legend(fontsize="large")
 
     # Ajustar el layout y mostrar la figura
