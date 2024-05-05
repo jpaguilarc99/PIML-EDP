@@ -34,6 +34,7 @@ v_eval = spline(x_eval)
 v_eval = v_eval.reshape(N, 1)
 
 def main():
+    # Datos y variables de entrenamiento
     N_modes = 20
     n_pts = 1000
     iterations = 1000
@@ -48,9 +49,11 @@ def main():
     n = torch.linspace(1, N_modes, N_modes)     
 
     for i in range(iterations):        
+        # Datos de entrada
+        x = torch.linspace(0, torch.pi, n_pts).requires_grad_(True)
+        x = x_physics.view(n_pts, 1)
         x = torch.linspace(0, np.pi, n_pts)        
         
-        # Funciones de prueba
         v_test, v_dv = generate_test_functions(n_pts, vecs_comp)
 
         x = x.requires_grad_(True).view(n_pts, 1)   
