@@ -10,7 +10,7 @@ def create_model(model_name):
     if model_name == "RNN":
         return RNNPDE()
     if model_name == "Transformer":
-        return TransformerEDP()
+        return TransformerEDP(input_dim=1, output_dim=1, num_layers=2, hidden_dim=10)
     return FCN(1, 1, 10, 4)
 
 def create_optimizer(model):

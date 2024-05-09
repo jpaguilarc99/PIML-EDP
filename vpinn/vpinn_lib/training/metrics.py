@@ -26,6 +26,11 @@ def compute_errors(model, x, exact_u):
     error_between_functions = exact_function - predicted_function
     error_squared = error_between_functions**2
     L2_error = compute_integral(error_squared, x)
+    
+    exact_squared = exact_function**2
+    L2_exact = compute_integral(exact_squared, x)
+    
+    L2_relative_error = L2_error / L2_exact
 
     predicted_derivative = torch.autograd.grad(predicted_function, x, torch.ones_like(predicted_function), create_graph=True, retain_graph=True)[0]
     exact_derivative = exact_u_prime(x)
@@ -34,9 +39,9 @@ def compute_errors(model, x, exact_u):
 
     H1_error = compute_integral(error_squared + error_derivative_squared, x)
     
-    exact_function_squared = exact_function**2
+    exact_function_squared = exact_function**2 + exact_derivative**2
     exact_function_norm = compute_integral(exact_function_squared, x)
 
     relative_H1_error = H1_error / exact_function_norm
 
-    return torch.sqrt(L2_error).item(), torch.sqrt(relative_H1_error).item()
+    return torch.sqrt(L2_relative_error).item(), torch.sqrt(relative_H1_error).item()

@@ -180,4 +180,4 @@ class TransformerEDP(nn.Module):
         output = self.transformer_encoder(x)  
         output = self.decoder(output)
         out = torch.einsum('ij,ij->ij', a, output)
-        return output
+        return out  
